@@ -1,0 +1,37 @@
+.div_container{
+    padding-top:1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    float: left;
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item {
+    font-size: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.item:hover{
+    --tw-text-opacity:1;
+    --ag-color-text:rgb(234 179 8 / var(--tw-text-opacity));
+    color:var(--ag-color-text) ;
+}
+
+.item_text{
+    font-size: 20px;
+}
+.title_text_price{
+    font-size: 19px;
+}
+.pdding_left{
+    padding-left: 30px;
+}
+.text_font_size_detalle{
+    font-size: 18px;
+}
